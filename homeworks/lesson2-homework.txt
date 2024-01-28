@@ -1,19 +1,19 @@
-Create a new Java class named Calculator in the package lesson2.ismayil.
+Create a new Java class named Calculator in the package in your package lesson2.*
 
 Inside the Calculator class, define the following methods:
 
-boolean checkIfAdult(int age): This method should return true if the given age is 18 or above; otherwise, return false.
+1. boolean checkIfAdult(int age): This method should return true if the given age is 18 or above; otherwise, return false.
 
-int toplama(int a, int b): This method should take two integers as parameters and return their sum.
+2. int sum(int a, int b): This method should take two integers as parameters and return their sum.
 
-int cixma(int a, int b): This method should take two integers as parameters and return the result of subtracting the second from the first.
+3. int subtract(int a, int b): This method should take two integers as parameters and return the result of subtracting the second from the first.
 
-String salamUser(String user): This method should take a String parameter representing a user's name and return a greeting message like "Salam [user]".
+4. String heyUser(String user): This method should take a String parameter representing a user's name and return a greeting message like "Salam [user]".
 
-int vurma(int a, int b): This method should take two integers as parameters and return their product.
+5. int multiple(int a, int b): This method should take two integers as parameters and return their product.
 
-int bolme(int a, int b): This method should take two integers as parameters and return the result of dividing the first by the second.
+6. int divide(int a, int b): This method should take two integers as parameters and return the result of dividing the first by the second.
 
-Copy and paste the main method provided in the template, ensuring that it interacts with an instance of the Calculator class and demonstrates the functionality of each method.
+7. Create instance of Calculator class in main method();
 
-Test your Calculator class by running the main method and providing inputs when prompted.
+8. Test your Calculator class by running the main method and providing inputs using Scanner class .
